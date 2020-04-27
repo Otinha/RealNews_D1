@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*, html * {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../Images/fundo.jpg);
+	
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	height: 104px;
+	width: 100%;
+	padding: 0 5px;
+	box-sizing: border-box;
+	background-color: #ff5959;
+	
+}
+
+header ul li {
+	display: inline-block;
+	margin: 0 12px;	
+}
+
+header ul li a {
+	text-decoration: none;
+	color: #FBFBFB;
+}
+
+span {
+	margin: 0 12px 0 0;
+}
+
+.link-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	position: absolute;
+	padding: 16px;
+}

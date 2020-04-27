@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	
+	width: 100%;
+	
+	background-color: #f0f0f0;
+}
+
+section {
+	width: 80%;
+	box-sizing: border-box;
+	margin-top: 12px;
+	padding: 24px;
+
+	background-color: #fbfbfb;
+	word-wrap: break-word;
+}
+
+section h2, section p {
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	text-align: justify;
+}

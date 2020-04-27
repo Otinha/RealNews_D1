@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+section h3, section a {
+	margin: 12px 0;
+	color: black;
+}
+
+section a {
+	width: 250px;
+	padding: 25px 0;
+	
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.5s;
+}
